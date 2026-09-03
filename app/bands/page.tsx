@@ -8,9 +8,9 @@ export default function BandsPage() {
       <section className="course-grid">
         {mockBands.map((band) => (
           <BandCard key={band.id} band={band} />
+        
         ))}
       </section>
     </main>
   );
-  
 }
